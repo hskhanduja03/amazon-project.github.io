@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com</title>
+    <link rel="stylesheet" href="amazon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.min.js">
+    <link rel="shortcut icon" href="./images.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="logo border">
+                    <img src="./download.png" id="imgg" alt="">
+                </div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="add1">Deliver to</p>
+                
+                <div class="add-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                        <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                        <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                      </svg>
+                    <p class="add2">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <div class="categories">
+                    <select name="All" id="categorie" class="" placeholder="All">
+                        <option value="">All</option>
+                        <option value="">All Departments</option>
+                        <option value="">Baby products</option>
+                        <option value="">Fashion</option>
+                        <option value="">Art & Craft</option>
+                        <option value="">Automotive</option>
+                    </select>
+                </div>
+
+                <div class="search-bar golden">
+                    <input type="text" class="search" placeholder="Search Amazon">
+                </div>
+
+                <div class="search-icon golden">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25px" height="25px" fill="black" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>
+                </div>
+            </div>
+
+            <div class="language border">
+                <select name="" class="language-select">
+                    <option value="">EN</option>
+                </select>
+            </div>
+
+            <div class="sign-in border">
+                <p class="para1">Hello, sign in</p>
+                <p class="para2">Accounts & Lists</p>
+            </div>
+
+            <div class="orders border">
+                <p class="para1">Returns</p>
+                <p class="para2">& Orders</p>
+            </div>
+
+            <div class="cart border">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="40" fill="white" class="bi bi-cart3" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+                  </svg>
+                  <p id="cart">Cart</p>
+            </div>
+            
+            </div>
+
+            <div class="panel">
+
+            <div class="panel-all border">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                  </svg>
+                  <p>All</p>
+            </div>
+
+            <div class="panel-ops">
+                <p class="border">Today's Deals</p>
+                <p class="border">Customer Service</p>
+                <p class="border">Registry</p>
+                <p class="border">Gift Cards</p>
+                <p class="border">Sell</p>
+            </div>
+
+            <div class="panel-deals border">
+                <p>Shop deals in Electronics</p>
+            </div>
+
+            </div>
+    </header>
+
+    <div class="hero">
+        <div class="background"></div>
+        <div class="hero-products">
+            <div class="hero1">
+                <p>Gaming Accessories</p>
+                    <div class="hero1-img">
+                    <a href="#"><img src="./Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg" alt="hello"></a>
+                    <a href="#"><img src="./Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg" alt="hello"></a>
+                    <a href="#"><img src="./Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg" alt="hello"></a>
+                    <a href="#"><img src="./Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg" alt="hello"></a>
+                    </div>
+                <div class="link"><a href="#">See more</a></div>
+            </div>
+
+            <div class="hero2">
+                <p>Electronics</p>
+                <a href="#"><img src="./Fuji_Dash_Electronics_1x._SY304_CB432774322_.jpg" alt=""></a>
+                <div class="link"><a href="#">See more</a></div>
+            </div>
+
+            <div class="hero2">
+                <p>Toys under 30$</p>
+                <img src="./XCM_CUTTLE_1469244_2584128_379x304_1X_en_US._SY304_CB609318944_.jpg" alt="">
+                <div class="link"><a href="#">See more</a></div>
+                </div>
+
+            <div class="hero3">
+                <p>Sign in for the best experince</p>
+                <div class="sign-in-button">
+                    <p>Sign in securely</p>
+                </div>
+                <a href="#"><img src="./prime.jpg" alt=""></a>
+            </div>
+    
+            <div class="hero1">
+                <p>Refresh your space</p>
+                    <div class="hero1-img">
+                    <a href="#"><img src="./dining1.jpg" alt="hello"></a>
+                    <a href="#"><img src="./home2.jpg" alt="hello"></a>
+                    <a href="#"><img src="./kitchen3.jpg" alt="hello"></a>
+                    <a href="#"><img src="./health4.jpg" alt="hello"></a>
+                    </div>
+                <div class="link"><a href="#">See more</a></div>
+            </div>
+
+            <div class="hero1">
+                <p>Shop deals in Fashion</p>
+                    <div class="hero1-img">
+                    <a href="#"><img src="./1.jpg" alt="hello"></a>
+                    <a href="#"><img src="./2.jpg" alt="hello"></a>
+                    <a href="#"><img src="./3.jpg" alt="hello"></a>
+                    <a href="#"><img src="./4.jpg" alt="hello"></a>
+                    </div>
+                <div class="link"><a href="#">See more</a></div>
+            </div>
+
+            <div class="hero2">
+                <p>Beauty Picks</p>
+                <img src="./Fuji_Dash_Beauty_1x._SY304_CB432774351_.jpg" alt="">
+                <div class="link"><a href="#">See more</a></div>
+            </div>
+            
+            <div class="hero2">
+                <p>Health & Personal Care</p>
+                <img src="./GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop1x._SY304_CB627424361_.jpg" alt="">
+                <div class="link"><a href="#">See more</a></div>
+                </div>
+
+        </div>
+
+
+    </div>
+    <hr>
+
+        <div class="bottom-sign">
+            <div class="button">
+                <p>Sign in</p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="footer">
+
+            <div class="back">
+                <p>Back to top</p>
+            </div>
+
+            <div class="foot">
+                <div class="foot1">
+                    <h3>Get to know Us</h3>
+                    <p>Careers</p>
+                    <p>Blog</p>
+                    <p>About Investors</p>
+                    <p>Relation</p>
+                    <p>Amazon Service</p>
+                </div>
+                <div class="foot1">
+                    <h3>Make Money with Us</h3>
+                    <p>Sell products on Amazon</p>
+                    <p>Sell on Business Amazon</p>
+                    <p>Sell apps in Amazon</p>
+                    <p>Become an Affiliate</p>
+                    <p>Advertise your Products</p>
+                </div>
+                <div class="foot1">
+                    <h3>Amazon Payment Products</h3>
+                    <p>Amazon Business Card</p>
+                    <p>Shop with Points</p>
+                    <p>Reload Your Balance</p>
+                    <p>Amazon Currency Converter</p>
+                </div>
+                <div class="foot1">
+                    <h3>Let Us Help You</h3>
+                    <p>Amazon and COVID-19</p>
+                    <p>Your Account</p>
+                    <p>Your Orders</p>
+                    <p>Shipping Rates & Policies</p>
+                    <p>Help</p>
+                </div>
+            </div>
+
+            <div class="bottom-logo">
+                <img src="./download.png" alt="">
+                <div class="bordeer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-globe" viewBox="0 0 16 16">
+                        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+                      </svg>
+                      English
+                </div>
+                <div class=" bordeer">
+                    $ USD - U.S. Dollar
+                </div>
+            </div>
+
+
+        </div>
+
+</body>
+</html>
